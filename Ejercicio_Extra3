@@ -1,0 +1,46 @@
+Proceso Ejercicio_Extra_3
+	
+	Definir j1, j2, j3, n1, n2, n3 Como Entero;
+	
+	Escribir "Ingresar número de lotería (1-15)";
+	Leer j1;
+	
+	si (j1>=1 y j1<=15) Entonces
+		Mostrar "Rango permitido"
+		n1<-1+azar(15)
+		Escribir "El número al azar es: ",n1
+	SiNo
+		Mostrar "Rango no permitido"
+		Mostrar "Oportunidad perdida"
+	FinSi
+	
+	Escribir "Ingresar número de lotería (1-15)";
+	Leer j2;
+	
+	si (j2>=1 y j2<=15) Entonces
+		Mostrar "Rango permitido"
+		n1<-1+azar(15)
+		Escribir "El número al azar es: ",n2
+	SiNo
+		Mostrar "Rango no permitido"
+		Mostrar "Oportunidad perdida"
+	FinSi
+	
+	Escribir "Ingresar número de lotería (1-15)";
+	Leer j3;
+	
+	si (j3>=1 y j3<=15) Entonces
+		Mostrar "Rango permitido"
+		n1<-1+azar(15)
+		Escribir "El número al azar es: ",n3
+	SiNo
+		Mostrar "Rango no permitido"
+		Mostrar "Oportunidad perdida"
+	FinSi
+	
+	si (j1<>n1 y j2<>n2 y j3<>n3) Entonces
+		Mostrar "No acerto ninguna, ha perdido"
+	SiNo
+		Mostrar "Felicitaciones, se llevo s/.50 000."
+	FinSi
+FinProceso

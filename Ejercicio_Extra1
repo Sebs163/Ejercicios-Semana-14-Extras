@@ -1,0 +1,23 @@
+Proceso Ejercicio_Extra_1
+	
+	Definir frase Como Caracter;
+	Definir x Como Entero;
+	
+	Escribir "Ingresar Nombre y Apellidos: ";
+	Leer frase;
+	Mostrar "Convertir a";
+	Escribir "1 = Mayúsculas";
+	Escribir "2 = Minúsculas";
+	Leer x;
+	
+	si (x>0 y x<3) Entonces
+		si (x==1) Entonces
+			Escribir "El texto en mayúsculas es ",Mayusculas(frase)
+		SiNo
+			Escribir "El texto en minúsculas es ",Minusculas(frase)
+		FinSi
+	SiNo
+		Mostrar "Ingresa una opción correcta";
+	FinSi
+	
+FinProceso

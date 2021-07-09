@@ -1,0 +1,20 @@
+Proceso Ejercicio_Extra_2
+	
+	Definir txt Como Caracter;
+	
+	Escribir "Ingrese la palabra electroencefalograma";
+	Leer txt;
+	
+	si (txt<>"electroencefalograma") Entonces
+		Repetir
+			Escribir "Palabra Incorrecta, vuelva a ingresarla nuevamente";
+			Leer txt
+		Hasta Que (txt="electroencefalograma")
+	FinSi
+	
+	Mostrar "Cuenta con este número de caracteres: ";
+	Escribir Longitud(txt);
+	Mostrar "Los 2 primeros caracteres y los 3 ultimos: ";
+	Escribir Concatenar("el ","ama")
+	
+FinProceso

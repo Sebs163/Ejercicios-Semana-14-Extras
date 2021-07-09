@@ -1,0 +1,12 @@
+Proceso Ejercicio_Extra_4
+	
+	Definir x Como Entero;
+	
+	x=1
+	
+	Mientras x<=100 Hacer
+		Escribir x
+		x=x+1
+	FinMientras
+	
+FinProceso
